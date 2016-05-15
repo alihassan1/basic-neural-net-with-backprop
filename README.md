@@ -7,5 +7,5 @@ This is a basic implantation of Stochastic Gradient Descent (SGD) for a feedforw
 Current implication has only sigmoid as an activation function. I have plans to implement ReLu to see how well it performs in this configuration. It also includes dropout regularization, which is useful for multiple hidden layers. 
 
 ## Usage
-Download MNIST dataset (http://yann.lecun.com/exdb/mnist/). Note that this repository contains functions required to load MINST dataset. These function are borrowed from UFLDL tutorial (http://ufldl.stanford.edu/wiki/index.php/Using_the_MNIST_Dataset)
-Main.m as the name suggests, is the starter file. It is divided into multiple sections. Please update data paths in ‘Load Data’ section of the script. You can also play around with parameters such as ‘learning rate’, ‘batch size’ etc.
+1. Download MNIST dataset (http://yann.lecun.com/exdb/mnist/). Note that this repository contains functions required to load MINST dataset. These function are borrowed from UFLDL tutorial (http://ufldl.stanford.edu/wiki/index.php/Using_the_MNIST_Dataset)
+2. Main.m as the name suggests, is the starter file. It is divided into multiple sections. Please update data paths in ‘Load Data’ section of the script. You can also play around with parameters such as ‘learning rate’, ‘batch size’ etc.
